@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Me | David I Moses</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon_io/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon_io/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon_io/favicon-16x16.png"/>
+    <link rel="manifest" href="media/favicon_io/site.webmanifest"/>
+
+  <!-- Google fonts - Geist Mono & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="main-header" class="main-header border-bottom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">David I Moses</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center flex-wrap">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Me</a></li>
+
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-outline-dark" href="mailto:159095524@aston.ac.uk">Email Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content" class="container my-4">
+    <!-- Hero / Intro -->
+      <section class="row align-items-center g-4">
+        <div class="col-12 col-md-7">
+          <h1 class="display-5 mb-5 fw-bold">Hi, I’m David I Moses.</h1>
+
+          <p class="lead">
+            Aspiring software developer with a growing foundation in several core languages.
+            Backed by more than seven years of experience across fintech, SaaS, banking, security, and EV solutions, with a strong understanding of real-world systems and user needs.
+          </p>
+
+          <blockquote class="blockquote border-start ps-3 my-3">
+            <p class="m-4">
+              “Got a project in mind? Let’s talk.”
+            </p>
+          </blockquote>
+
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn" href="https://www.linkedin.com/in/david-moses-82a19b17b/" target="_blank">
+              <img src="media/linkedin.png" alt="linkedin" width="32" height="32"/>
+            </a>
+            <a class="btn" href="https://github.com/DMJNR" target="_blank">
+              <img src="media/github.png" alt="github" width="32" height="32"/>
+            </a>
+            <a
+              class="btn btn-outline-dark"
+              href="Files/David Moses CV.pdf"
+              target="_blank"
+              rel="noopener"
+              download
+            >
+              Download my CV
+            </a>
+          </div>
+
+          <p class="mt-3 mb-0 text-muted">
+            Aston Email: <strong>159095524@aston.ac.uk</strong> • SUN:
+            <strong>159095524</strong>
+          </p>
+        </div>
+
+        <div class="col-12 col-md-5 text-center">
+          <img
+            class="img-fluid rounded shadow-sm"
+            src="media/DAVE.jpeg"
+            alt="Profile photo"
+          />
+        </div>
+      </section>
+
+      <hr class="my-5" />    
+    <section id="contact-me" class="section-card p-3 p-md-4">
+      <h1 class="h2 mb-2">Contact Me</h1>
+      <p class="text-muted mb-4">
+        I would love to hear about your project idea and I’ll get back to you using your preferred contact method.
+      </p>
+
+      <form id="contactForm" class="form" novalidate>
+        <div class="row g-3">
+
+          <!-- First Name -->
+          <div class="col-12 col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input
+              id="firstName"
+              class="form-control"
+              type="text"
+              name="firstName"
+              placeholder="e.g., Sarah"
+              required
+            />
+          </div>
+
+          <!-- Phone Number -->
+          <div class="col-12 col-md-6">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input
+              id="phoneNumber"
+              class="form-control"
+              type="tel"
+              name="phoneNumber"
+              placeholder="e.g., 07123 456789"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="col-12 col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input
+              id="email"
+              class="form-control"
+              type="email"
+              name="email"
+              placeholder="e.g., name@example.com"
+              required
+            />
+          </div>
+
+          <!-- Confirm Email -->
+          <div class="col-12 col-md-6">
+            <label for="confirmEmail" class="form-label">Confirm Email</label>
+            <input
+              id="confirmEmail"
+              class="form-control"
+              type="email"
+              name="confirmEmail"
+              placeholder="Re-enter your email"
+              required
+            />
+          </div>
+
+          <!-- Project Description -->
+          <div class="col-12">
+            <label for="projectDescription" class="form-label">Project Description</label>
+            <input
+              id="projectDescription"
+              class="form-control"
+              type="text"
+              name="projectDescription"
+              placeholder="Describe what you would like to build..."
+              required
+            />
+          </div>
+
+          <!-- Preferred Contact Method (required) -->
+          <div class="col-12">
+            <p class="mb-2 fw-semibold">Preferred Contact Method</p>
+
+            <div class="d-flex flex-wrap gap-3">
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="preferredContact"
+                  id="contactEmail"
+                  value="Email"
+                />
+                <label class="form-check-label" for="contactEmail">
+                  Email
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="preferredContact"
+                  id="contactPhone"
+                  value="Phone"
+                />
+                <label class="form-check-label" for="contactPhone">
+                  Phone
+                </label>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Project Date -->
+          <div class="col-12 col-md-6">
+            <label for="projectDate" class="form-label">Project Date</label>
+            <input
+              id="projectDate"
+              class="form-control"
+              type="date"
+              name="projectDate"
+              required
+            />
+            <p class="small text-muted mt-1 mb-0">Must be at least 1 day in the future.</p>
+          </div>
+
+          <!-- Duration -->
+          <div class="col-12 col-md-6">
+            <label for="projectDuration" class="form-label">Project Duration (days)</label>
+            <input
+              id="projectDuration"
+              class="form-control"
+              type="number"
+              name="projectDuration"
+              min="1"
+              placeholder="e.g., 7"
+              required
+            />
+          </div>
+
+          <div class="col-12 d-flex justify-content-between align-items-center flex-wrap gap-2 mt-2">
+            <input
+              id="submit"
+              class="submit btn btn-dark"
+              type="submit"
+              value="Submit Enquiry"
+            />
+          </div>
+        </div>
+      </form>
+
+    </section>
+  </main>
+
+  <footer class="footer mt-5 py-4 border-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p class="mb-0">
+        © <span id="year"></span> David I Moses • <a href="mailto:159095524@aston.ac.uk">159095524@aston.ac.uk</a>
+      </p>
+      <a class="btn btn-sm btn-primary" href="index.html">A little about me</a>
+    </div>
+  </footer>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

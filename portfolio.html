@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | David I Moses</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicon_io/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicon_io/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicon_io/favicon-16x16.png"/>
+    <link rel="manifest" href="media/favicon_io/site.webmanifest"/>
+
+  <!-- Google fonts - Geist Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="main-header" class="main-header border-bottom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">David I Moses</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center flex-wrap">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-outline-dark" href="mailto:159095524@aston.ac.uk">Email Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header> 
+
+  <main id="main-content" class="container my-4">
+    <!-- Hero / Intro -->    
+      <section class="row align-items-center g-4">
+        <div class="col-12 col-md-7">
+          <h1 class="display-5 mb-5 fw-bold">Hi, I’m David I Moses.</h1>
+
+          <p class="lead">
+            Aspiring software developer with a growing foundation in several core languages.
+            Backed by more than seven years of experience across fintech, SaaS, banking, security, and EV solutions, with a strong understanding of real-world systems and user needs.
+          </p>
+
+          <blockquote class="blockquote border-start ps-3 my-3">
+            <p class="m-4">
+              “Got a project in mind? Let’s talk.”
+            </p>
+          </blockquote>
+
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn" href="https://www.linkedin.com/in/david-moses-82a19b17b/" target="_blank">
+              <img src="media/linkedin.png" alt="linkedin" width="32" height="32"/>
+            </a>
+            <a class="btn" href="https://github.com/DMJNR" target="_blank">
+              <img src="media/github.png" alt="github" width="32" height="32"/>
+            </a>
+            <a
+              class="btn btn-outline-dark"
+              href="Files/David Moses CV.pdf"
+              target="_blank"
+              rel="noopener"
+              download
+            >
+              Download my CV
+            </a>
+          </div>
+
+          <p class="mt-3 mb-0 text-muted">
+            Aston Email: <strong>159095524@aston.ac.uk</strong> • SUN:
+            <strong>159095524</strong>
+          </p>
+        </div>
+
+        <div class="col-12 col-md-5 text-center">
+          <img
+            class="img-fluid rounded shadow-sm"
+            src="media/DAVE.jpeg"
+            alt="Profile photo"
+          />
+        </div>
+      </section>
+
+      <hr class="my-5" />
+
+    <section id="projects" class="section-card p-3 p-md-4">
+      <h1 class="h2 mb-2">Portfolio</h1>
+      <p class="text-muted mb-4">
+        Click anywhere on the text to view each project.
+      </p>
+
+      <div class="row g-4">
+
+        <!-- Project 1 -->
+        <div class="col-12">
+        <section
+          class="project-card h-100"
+          role="button"
+          tabindex="0"
+          data-bs-toggle="modal"
+          data-bs-target="#modalGoose"
+          aria-label="Open Goose Game project screenshot"
+        >
+          <div class="card-body d-flex flex-column justify-content-between p-1">
+
+            <div>
+              <h2 class="h5 card-title mb-2">Goose Game</h2>
+              <p class="card-text">
+                A side-scrolling arcade-style game where the player controls a goose to dodge obstacles and survive as long as possible, practising movement, collision detection, and gameplay logic.
+              </p>
+            </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-12">
+          <section
+            class="project-card h-100"
+            role="button"
+            tabindex="0"
+            data-bs-toggle="modal"
+            data-bs-target="#modalBounce"
+            aria-label="Open bouncing ball simulation screenshot"
+          >
+            <div class="card-body d-flex flex-column justify-content-between p-1">
+
+              <div>
+                <h2 class="h5 card-title mb-2">Interactive Bouncing Ball Simulation</h2>
+                <p class="card-text">
+                  An interactive animation featuring a bouncing ball with edge detection and user-controlled behaviour - demonstrating animation loops, conditional logic, and user input handling.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="col-12">
+          <section
+            class="project-card h-100"
+            role="button"
+            tabindex="0"
+            data-bs-toggle="modal"
+            data-bs-target="#modalFocusFlow"
+            aria-label="Open Focus Flow project screenshot"
+          >
+            <div class="card-body d-flex flex-column justify-content-between p-1">
+
+              <div>
+                <h2 class="h5 card-title mb-2">Focus Flow Mock Website</h2>
+                <p class="card-text">
+                  A responsive landing page concept for a productivity app, designed with strong visual hierarchy and clear calls-to-action to practise layout and responsive design.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-12">
+          <section
+            class="project-card h-100"
+            role="button"
+            tabindex="0"
+            data-bs-toggle="modal"
+            data-bs-target="#modalZenith"
+            aria-label="Open Zenith photo gallery screenshot"
+          >
+            <div class="card-body d-flex flex-column justify-content-between p-1">
+
+              <div>
+                <h2 class="h5 card-title mb-2">Zenith Photo Gallery</h2>
+                <p class="card-text">
+                  A responsive photo gallery website featuring my cat, Zenith, with an organised grid layout and clean presentation to practise semantic HTML and styling.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+
+    <!-- Project 5 -->
+        <div class="col-12">
+          <section
+            class="project-card h-100"
+            role="button"
+            tabindex="0"
+            data-bs-toggle="modal"
+            data-bs-target="#modalTribute"
+            aria-label="Open tribute page screenshot"
+          >
+            <div class="card-body d-flex flex-column justify-content-between p-1">
+
+              <div>
+                <h2 class="h5 card-title mb-2">Tribute Page</h2>
+                <p class="card-text">
+                  A tribute page developed using semantic HTML and CSS, focusing on clean layout, strong visual hierarchy, and accessible colour contrast.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= -->
+    <!-- Bootstrap Modals Section -->
+    <!-- ========================= -->
+
+    <!-- Modal 1: Goose Game -->
+    <section>
+      <div
+        class="modal fade"
+        id="modalGoose"
+        tabindex="-1"
+        aria-labelledby="modalGooseLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="modalGooseLabel">Goose Game</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                class="img-fluid rounded"
+                src="media/portfolio/2.GooseGamemp4-ezgif.com-video-to-gif-converter.gif"
+                alt="Full size screenshot of Goose game project"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a class="btn btn-primary" href="#" rel="noopener" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal 2: Bouncing Ball -->
+    <section>
+      <div
+        class="modal fade"
+        id="modalBounce"
+        tabindex="-1"
+        aria-labelledby="modalBounceLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="modalBounceLabel">Bouncing Ball Simulation</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                class="img-fluid rounded"
+                src="media/portfolio/ezgif.com-video-to-gif-converter.gif"
+                alt="Full size screenshot of Bouncing Ball simulation project"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a class="btn btn-primary" href="#" rel="noopener" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal 2: Focus Flow -->
+    <section>
+      <div
+        class="modal fade"
+        id="modalFocusFlow"
+        tabindex="-1"
+        aria-labelledby="modalFocusFlowLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="modalFocusFlowLabel">Focus Flow</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                class="img-fluid rounded"
+                src="media/portfolio/REC-20260212183912-ezgif.com-video-to-gif-converter.gif"
+                alt="Full size screenshot of Focus Flow mock website project"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a class="btn btn-primary" href="#" rel="noopener" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal 3: Zenith Gallery -->
+    <section>
+      <div
+        class="modal fade"
+        id="modalZenith"
+        tabindex="-1"
+        aria-labelledby="modalZenithLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="modalZenithLabel">Zenith Photo Gallery</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                class="img-fluid rounded"
+                src="media/portfolio/REC-20260212191543-ezgif.com-video-to-gif-converter.gif"
+                alt="Full size screenshot of Zenith cat photo gallery project"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a class="btn btn-primary" href="#" rel="noopener" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal 5: Tribute page -->
+    <section>
+      <div
+        class="modal fade"
+        id="modalTribute"
+        tabindex="-1"
+        aria-labelledby="modalTributeLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title h5" id="modalTributeLabel">Tribute Page </h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body text-center">
+              <img
+                class="img-fluid rounded"
+                src="media/portfolio/Screenshot 2026-02-13 at 10.18.58.png"
+                alt="Full size screenshot of Tribute Page project"
+              />
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <a class="btn btn-primary" href="#" rel="noopener" target="_blank">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer mt-5 py-4 border-top">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <p class="mb-0">
+        © <span id="year"></span> David I Moses • <a href="mailto:159095524@aston.ac.uk">159095524@aston.ac.uk</a>
+      </p>
+      <a class="btn btn-sm btn-primary" href="contact.html">Let's build together - contact me</a>
+    </div>
+  </footer>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+

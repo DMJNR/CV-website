@@ -1,0 +1,95 @@
+* {                   
+     font-family: "Geist Mono", monospace; 
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    #f6f6f6 0%,
+    #f5f7fa 100%
+  );   
+  margin: 0;                   
+  padding: 0;                 
+}
+
+#main-header { 
+  position:sticky; 
+  top: 0; 
+  z-index: 1000;
+  background-color: #f8f9fa;
+ }
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  padding: 12px;                  
+  border: 1px solid #dee2e6;     
+}
+
+.skip-link:focus {
+  left: 12px;
+  top: 12px;
+}
+
+/* Card-like sections */
+.section-card {
+  background-color: #ffffff;    
+  border: 1px solid #dee2e6;      
+  border-radius: 12px;
+}
+
+/* Skills section */
+.skill-tile {
+  display: flex;                  
+  flex-wrap: wrap;               
+  align-items: center;            
+  justify-content: space-between; 
+  gap: 12px;
+  border: 1px solid #dee2e6;    
+  background-color: #fdfdfd;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;     
+}
+
+.skill-tile:hover {
+  background-color: #f1f1f1;     
+  border-color: #c0c0c0;
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);        
+}
+
+.skill-logo {
+  width: 45px;               
+}
+
+.star-rating i {
+  margin-right: -7px; 
+}
+
+/* Portfolio section */
+.project-card {
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover,
+.project-card:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+/* Footer */
+.footer {
+  background-color: #f8f9fa; 
+  padding: 20px 0;
+  text-align: left;               
+}
+
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;           
+  }
+}
