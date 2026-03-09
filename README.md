@@ -25,7 +25,7 @@ The purpose of this project is to:
 
 ---
 
-## Technologies Used
+## Languages Used
 
 * **HTML5** – page structure and semantic layout
 * **CSS3** – styling and layout customisation
