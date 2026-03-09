@@ -10,7 +10,7 @@ The website demonstrates my understanding of **HTML, CSS, JavaScript, and respon
 
 You can view the live version of the website here:
 
-**https://dmjnr.github.io/cv-website/**
+**https://dmjnr.github.io/CV-website/**
 
 ---
 
